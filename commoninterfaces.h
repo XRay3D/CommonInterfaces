@@ -11,6 +11,7 @@ public:
 
     virtual void open(int mode) = 0;
     virtual void close() = 0;
+    virtual ~CommonInterfaces() = default;
 
 protected:
     bool connected_ = false;
